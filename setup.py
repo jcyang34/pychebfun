@@ -1,8 +1,8 @@
 #!/usr/bin/env python
+from setuptools import setup, find_packages
+#from distutils.core import setup
 
-from distutils.core import setup
-
-import pychebfun
+#import pychebfun
 
 
 setup(
@@ -16,7 +16,8 @@ setup(
     url = "https://github.com/pychebfun/pychebfun",
     license      = 'BSD',
     keywords = ['Math', 'Chebyshev', 'chebfun',],
-    packages=['pychebfun',],
+    #packages=['pychebfun',],
+    packages=find_packages(),
     install_requires=['typing_extensions','scipy','numpy','matplotlib'],
     
     classifiers = [
