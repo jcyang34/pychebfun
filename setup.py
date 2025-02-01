@@ -17,6 +17,8 @@ setup(
     license      = 'BSD',
     keywords = ['Math', 'Chebyshev', 'chebfun',],
     packages=['pychebfun',],
+    install_requires=['typing_extensions','scipy','numpy','matplotlib'],
+    
     classifiers = [
     'Development Status :: 4 - Beta',
     'Intended Audience :: Science/Research',
