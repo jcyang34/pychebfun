@@ -7,7 +7,7 @@ from setuptools import setup, find_packages
 
 setup(
     name         = 'pychebfun',
-    version      = pychebfun.__version__,
+    version      = '1.0.0', #pychebfun.__version__,
     maintainer = 'Olivier Verdier',
     maintainer_email = 'olivier.verdier@gmail.com',
     description  = 'Python Chebyshev Functions',
